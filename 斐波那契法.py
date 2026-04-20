@@ -37,22 +37,3 @@ def fibonacci_search_max(f, a, b, eps):
 best_x = fibonacci_search_max(cclt, 0, 25, 0.001)
 print("最优解 x =", best_x)
 print("最优值 f(x) =", cclt(best_x))
-
-            a2=cclt(ri)
-        else :
-            ri,le,len1 = le,le-((len1-(ri-le))/2-(ri-le)),len1-(len1-(ri-le))/2
-            a2=a1
-            a1=cclt(le)
-        nums-=1
-    print(le,ri)
-    print(cclt(le),cclt(ri))
-search(0,25,0.001)
-            a2=cclt(ri)
-        else :
-            ri,le,len1 = le,le-((len1-(ri-le))/2-(ri-le)),len1-(len1-(ri-le))/2
-            a2=a1
-            a1=cclt(le)
-        nums-=1
-    print(le,ri)
-    print(cclt(le),cclt(ri))
-search(0,25,0.001)
